@@ -1,3 +1,4 @@
+
 const content = document.getElementById('content');
 // content.innerHTML = "Mendark: <strong>Hahaha Hahahahaha Hahaha Hahahahaha</strong>";
 
@@ -23,7 +24,7 @@ function arraysFunction()
     // "Alien" -> elementele pe care le adaugam
     // Complexitate O(n);
     return strings;
-
 }
+
 
 content.innerHTML = arraysFunction();
