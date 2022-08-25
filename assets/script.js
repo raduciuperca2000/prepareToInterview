@@ -64,37 +64,37 @@ console.log(mergeSortedArray([3,4,31], [4,6,30]));
 
 
 
-//  class HashTable
-//  {
-//     constructor(size)
-//     {
-//         this.data = new Array (size);
-//     }
+ class HashTable
+ {
+    constructor(size)
+    {
+        this.data = new Array (size);
+    }
 
-//     set(key, value)
-//     {
-//         this.data.push([key, value]);
-//         return [key, value];
-//     }
-//     get(key)
-//     {
-//         for(let i = 0; i<= this.data.length-1; i++)
-//         {
-//             if(this.data[i+50][0] == key)
-//             {
-//                 return this.data[i+50];
-//             }
-//         }
-//         return "Value for the key " + key + " was not found";
-//     }
-//  }
+    set(key, value)
+    {
+        this.data.push([key, value]);
+        return [key, value];
+    }
+    get(key)
+    {
+        for(let i = 0; i<= this.data.length-1; i++)
+        {
+            if(this.data[i+50][0] == key)
+            {
+                return this.data[i+50];
+            }
+        }
+        return "Value for the key " + key + " was not found";
+    }
+ }
 
-// let ht = new HashTable(50);
-// ht.set('banana', 400);
-// ht.set('portocala', 503);
-// ht.set('rodie', 404);
-// ht.set('avocado', 402);
-// console.log(ht.get('banana'));
+let ht = new HashTable(50);
+ht.set('banana', 400);
+ht.set('portocala', 503);
+ht.set('rodie', 404);
+ht.set('avocado', 402);
+console.log(ht.get('banana'));
 
 function findFactorialOfANumber(number)
 {
