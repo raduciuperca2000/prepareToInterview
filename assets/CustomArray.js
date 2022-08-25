@@ -27,7 +27,7 @@ class CustomArray{
         const item = this.data[index];
         this.shiftItems(index);
     }
-    
+
     shiftItems(index){
         for(let i = index; i <= this.length-1; i++)
         {
@@ -48,4 +48,4 @@ function customArrayTesting()
     //newArray.pop();
     console.log(newArray);
 }
-customArrayTesting();
+// customArrayTesting();
